@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* create the background style by image */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://www.imtj.com/sites/default/files/asset/travel%2C%20world%2C%20destinations%2C%20city.jpg")
+    center fixed;
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: screen;
+}
+/* style the navigation bar  */
+
+.nav-container {
+  margin-top: 0px;
+  background-color: #3cbc8d;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.listItem {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+}
+
+li {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a :link {
+  color: green;
+}
+
+.nav-container {
+  list-style-type: none;
+}
+
+.container .btn {
+  margin-left: 55px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: green;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.btn :hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+  background-color: #8eebeb;
+}
+
+li:hover,
+.listItem:hover {
+  background-color: #8eebeb;
+}
+
+.logo {
+  margin-top: 0em;
+  margin-left: 3em;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+/* style the contant od the contact page */
+.title {
+  font-family: Tahoma (sans-serif);
+  font-size: 40px;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 3px;
+  font-style: normal;
+  margin-top: 2em;
+}
+
+label {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* style the checkbox of the ticket quality */
+.labTitle {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.lab {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-style: bold;
+}
+
+.labDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lab {
+  padding: 25px;
+  margin: 10px;
+}
+
+.check {
+  cursor: pointer;
+  /* url(https://upload.wikimedia.org/wikipedia/commons/7/79/Green_checkbox-checked.svg)center 1250% no repeat */
+}
+
+/* style the text area for customer */
+.textAr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textAr {
+  width: 25%;
+  padding: 10px 19px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #3cbc8d;
+  background-color: #fbfbfb;
+}
+
+.textAr:focus {
+  border-color: 3px #83fa6e;
+  box-shadow: 0 0 8px 0 #83fa6e;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #3cbc8d;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  resize: none;
+}
+
+.btn2 {
+  padding: 5px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #3cbc8d;
+  cursor: pointer;
+}
+
+.textareaBtn {
+  margin-top: 5em;
+  margin-left: 7em;
+}
+
+.formContainer {
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+.textAr {
+  margin-left: 3em;
+}
+
+textarea:focus {
+  border-color: 3px #83fa6e;
+  box-shadow: 0 0 8px 0 #83fa6e;
+}
