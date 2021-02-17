@@ -24,18 +24,15 @@ const RatingMovie = ({ filterRating, movieRating, rating, setRating }) => {
             }
 
         </span>
-
-
-
     )
 }
 
 export default RatingMovie;
 
 
-//
 
-//   
-//       
-//    
+
+
+
+
 

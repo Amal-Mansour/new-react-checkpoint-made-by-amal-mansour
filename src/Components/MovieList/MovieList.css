@@ -1,13 +1,23 @@
 .movieList {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 5px 
-    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
-.movieList{
-    margin-top: 120px  !important;
-    margin-left: 15px !important;
+.movieList {
+  margin-top: 120px !important;
+  margin-left: 15px !important;
 }
 
+.moviebtn {
+  width: 28rem;
+  height: 36rem;
+  background-color: #000033 !important;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}

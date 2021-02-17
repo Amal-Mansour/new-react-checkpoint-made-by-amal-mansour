@@ -21,7 +21,7 @@ import './MovieList.css'
 
                
             )}
-                    <MovieCard className="addMovieBtn" addCard={true} AddMovie={AddMovie} />
+                    <MovieCard  className='moviebtn' addCard={true} AddMovie={AddMovie} />
  
         </div>
     )

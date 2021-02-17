@@ -1,26 +1,23 @@
-
-
-.w-100{
-    width: 28rem !important;
-    height:30rem !important;   
+.w-100 {
+  width: 28rem !important;
+  height: 30rem !important;
 }
 
-.styleCard{
-    width: 28rem;
-    height: 36rem;
-    margin:20px;
-    margin-top: 60px;
-    background-color:#000033 !important;
+.styleCard {
+  width: 28rem;
+  height: 36rem;
+  margin: 20px;
+  margin-top: 60px;
+  background-color: #000033 !important;
 }
 
-.styleTitle{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    color: white;
-
+.styleTitle {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
-
-
-
+.btn {
+  color: aqua;
+}

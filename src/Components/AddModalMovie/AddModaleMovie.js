@@ -1,12 +1,8 @@
-
 import React, { useState } from 'react'
 import { Form, Modal, Button, } from "react-bootstrap";
-import Regard from  "../../assets/regarde moi.jpg";
-import Millefeuille from  "../../assets/millefeulle.jpg";
-import Zeineb from "../../assets/zeineb.jpg";
-// import Augustin1  from "../../assets/Saint_August.jpg";
-// import Augustin2 from  "../../assets/Saint_Augusti.jpg";
-// import Augustin3 from "../../assets/Saint_d'Augustin.jpg"
+import Augustin1 from "../../assets/addmovie1.jpg";
+import Augustin2 from "../../assets/addmovie2.jpg";
+import Augustin3 from "../../assets/addmovie3.jpg"
 
 import './AddModaleMovie.css'
 
@@ -18,13 +14,13 @@ const AddModaleMovie = ({ AddMovie }) => {
 
     const handleClose = () => { setShow(false) }
     const handleShow = () => { setShow(true) }
-   
-    
 
-    return (   
-        <div  className='styleCard' >
 
-            <span style={{ fontSize: "45px", cursor: "pointer",display:"flex" ,flexDirection:"column",justifyContent:"center" ,alignItems:"center"}} onClick={handleShow}>[ + ]</span>
+
+    return (
+        <div className="addcard">
+
+            <span style={{ fontSize: "60px", marginTop: "180px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }} onClick={handleShow}>[ + ]</span>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -54,7 +50,7 @@ const AddModaleMovie = ({ AddMovie }) => {
                         Close
             </Button>
                     <Button variant="primary"
-                        onClick={() => { AddMovie({ id: Math.random(), myImage:Regard ,myImage1:Millefeuille,myImage2:Zeineb,title, Rating:rating }); handleClose() }}>
+                        onClick={() => { AddMovie({ id: Math.random(), myImage: Augustin1, myImage1: Augustin2, myImage2: Augustin3, title, Rating: rating }); handleClose() }}>
                         Add Movie
             </Button>
                 </Modal.Footer>
