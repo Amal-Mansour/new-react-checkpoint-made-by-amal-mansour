@@ -12,6 +12,7 @@ const AddModaleMovie = ({ AddMovie }) => {
     const [title, setTitle] = useState("")
     const [rating, setRating] = useState(1)
 
+    
     const handleClose = () => { setShow(false) }
     const handleShow = () => { setShow(true) }
 
@@ -32,27 +33,25 @@ const AddModaleMovie = ({ AddMovie }) => {
                         <Form.Label>Title</Form.Label>
                         <Form.Control type="text"
                             placeholder="Enter movie title "
-                            onChange={(e) => setTitle(e.target.value)}
-                        />
+                            onChange={(e) => setTitle(e.target.value)} />
                     </Form.Group>
 
                     <Form.Group >
                         <Form.Label>Rating</Form.Label>
                         <Form.Control type="number"
                             placeholder="Enter movie rating .." min="1" max="5"
-                            onChange={(e) => setRating(e.target.value)}
-                        />
+                            onChange={(e) => setRating(e.target.value)}/>
                     </Form.Group>
-
                 </Modal.Body>
+
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close
-            </Button>
+                     </Button>
                     <Button variant="primary"
                         onClick={() => { AddMovie({ id: Math.random(), myImage: Augustin1, myImage1: Augustin2, myImage2: Augustin3, title, Rating: rating }); handleClose() }}>
                         Add Movie
-            </Button>
+                     </Button>
                 </Modal.Footer>
             </Modal>
 

@@ -18,7 +18,6 @@ const RatingMovie = ({ filterRating, movieRating, rating, setRating }) => {
                 <Rate tooltips={desc} onChange={handleChange} value={rating} />
                 :
                 <Rate value={movieRating} disabled />
-
             }
 
         </span>

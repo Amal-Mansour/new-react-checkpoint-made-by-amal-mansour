@@ -4,9 +4,7 @@ import './MovieList.css'
 
 
  const MovieList = ({movies, search ,rating ,AddMovie}) => {
-
-   
-    
+ 
     return (
         <div className="movieList">
 

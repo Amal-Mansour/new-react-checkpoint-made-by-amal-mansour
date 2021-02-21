@@ -24,9 +24,11 @@ const MovieApp = () => {
                 <FilterByRating filterRating={true} rating={rating} setRating={setRating} />
                 <FilterByName setSearch={setSearch} />
             </div>
+
             <div>
                 <MovieList movies={movies} search={search} rating={rating} AddMovie={AddMovie} />
             </div>
+            
             <div style={{ marginTop: "100px" }}>
                 <Footer />
             </div>
