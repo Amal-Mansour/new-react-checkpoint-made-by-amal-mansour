@@ -9,7 +9,7 @@ const FilterByName = ({ search, setSearch }) => {
             <AutoComplete
                 style={{ width: 300, }}>
                 <Input.Search size="large"
-                    placeholder="search movie"
+                    placeholder="Enter movie name..."
                     className="inputsearch"
                     enterButton
                     onChange={e => setSearch(e.target.value)}

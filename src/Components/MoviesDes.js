@@ -11,11 +11,11 @@ const MoviesDes = ({ match }) => {
 
     }, [match.params.id])
     return (
-        <div>
+        <div >
             {/* image caroussel et div pur la description et la url vedio */}
 
             <div className="description-style">
-                <h1 style={{color:"white"}}>SYNOPSIS ET DÉTAILS:</h1>
+                <h1 style={{color:"white" ,marginTop:"30px"}}>SYNOPSIS ET DÉTAILS:</h1>
                 <p>{movie.description}</p>
             </div>
 
@@ -23,7 +23,7 @@ const MoviesDes = ({ match }) => {
                 <div>
                     
                 
-                <iframe style={{ border: '1px solid #FFC107', borderRadius: '20px', marginBottom: '10px' }} width="750" height="409" src={movie.Url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen > </iframe>
+                <iframe style={{ border: '1px solid aqua', borderRadius: '15px', marginBottom: '10px' }} width="800" height="450" src={movie.Url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen > </iframe>
                 </div>
 
                 <div className="style-button">

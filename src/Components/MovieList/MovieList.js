@@ -20,9 +20,10 @@ import './MovieList.css'
                 <MovieCard   movie={movie}  key={movie.id} />
 
                
-            )}
+            )}     
+                <div className="style-card">
                     <MovieCard  className='moviebtn' addCard={true} AddMovie={AddMovie} />
- 
+                    </div>
         </div>
     )
 }

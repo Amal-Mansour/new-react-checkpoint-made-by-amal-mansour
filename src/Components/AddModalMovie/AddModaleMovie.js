@@ -4,7 +4,7 @@ import Augustin1 from "../../assets/addmovie1.jpg";
 import Augustin2 from "../../assets/addmovie2.jpg";
 import Augustin3 from "../../assets/addmovie3.jpg"
 
-import './AddModaleMovie.css'
+
 
 const AddModaleMovie = ({ AddMovie }) => {
 

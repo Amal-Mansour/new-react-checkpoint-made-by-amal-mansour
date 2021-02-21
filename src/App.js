@@ -6,15 +6,12 @@ function App() {
 
   return (
     <div className="App">
-      
+   
+
        <Switch> 
        <Route exact path ="/" component={MovieApp}/> 
        <Route path ="/MovieCard/:id" component={MoviesDes}/>
       </Switch>
-
-      
-
-
 
     </div>
 

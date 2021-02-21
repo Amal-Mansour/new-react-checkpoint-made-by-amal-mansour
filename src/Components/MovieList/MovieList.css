@@ -6,13 +6,17 @@
 }
 
 .movieList {
-  margin-top: 120px !important;
-  margin-left: 15px !important;
+  margin-top: 100px !important;
+  margin-left: 100px !important;
+  background-color: #bcbcee1a;
+   width: 1300px;
+   height: 2050px;
+   border-radius: 12px;
 }
 
 .moviebtn {
-  width: 28rem;
-  height: 36rem;
+  width: 23rem;
+  height: 37rem;
   background-color: #000033 !important;
   margin-top: 60px;
   display: flex;
@@ -21,3 +25,7 @@
   align-items: center;
   font-size: 40px;
 }
+
+ .style-card{
+   margin-left: 20px !important;
+ }
