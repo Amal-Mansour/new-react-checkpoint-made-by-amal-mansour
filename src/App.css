@@ -8,8 +8,41 @@
 } 
 
 
+.description-style{
+  width: 1060px;
+  height:300px;
+  background-color: #000033;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 10px;
+  font-size: 19px;
+  line-height: 1.8;
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
 
+.style-trailer{
+  width: 1060px;
+  height:600px;
+  background-color:  #000033 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+}
+
+.style-button{
+  padding: 19px 45px !important;
+  border-radius: 8px;
+  display: flex !important;
+  justify-content: space-around !important;
+  margin: 10px !important;
+  
+
+}
 
  

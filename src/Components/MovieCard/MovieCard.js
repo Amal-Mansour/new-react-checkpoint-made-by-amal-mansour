@@ -3,6 +3,7 @@ import { Card, Carousel } from "react-bootstrap";
 import RatingOfMovie from '../RATING/Rating'
 import AddModaleMovie from '../AddModalMovie/AddModaleMovie'
 import './MovieCard.css'
+import {Link} from 'react-router-dom'
 
 
 const MovieCard = ({ movie, addCard, AddMovie }) => {
@@ -19,7 +20,7 @@ const MovieCard = ({ movie, addCard, AddMovie }) => {
                     </Card.Body>
                 </Card>
                 :
-                <Card className="styleCard">
+                <Link to={`/MovieCard/${movie.id}`}><Card className="styleCard">
                     {/* inserts images caroussel */}
                     <Carousel>
                         <Carousel.Item>
@@ -45,10 +46,12 @@ const MovieCard = ({ movie, addCard, AddMovie }) => {
                         </Carousel.Item>
                     </Carousel>
                     <Card.Body>
-                        <Card.Title className="styleTitle">{movie.title}</Card.Title>
+                    <Card.Title className="styleTitle">{movie.title}</Card.Title>
+                         {/* <Link to=""></Link> */}
                         <RatingOfMovie filterRating={false} movieRating={movie.Rating} />
                     </Card.Body>
                 </Card>
+                </Link> 
 
             }
         </div>

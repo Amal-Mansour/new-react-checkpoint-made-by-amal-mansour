@@ -1,16 +1,19 @@
 .w-100 {
-  width: 28rem !important;
+  width: 23rem !important;
   height: 30rem !important;
 }
 
 .styleCard {
-  width: 28rem;
-  height: 36rem;
+  width: 23rem;
+  height: 37rem;
   margin: 20px;
   margin-top: 60px;
   background-color: #000033 !important;
 }
 
+.styleCard:hover {
+  transform: scale(1.08);
+}
 .styleTitle {
   text-align: center;
   padding: 0;

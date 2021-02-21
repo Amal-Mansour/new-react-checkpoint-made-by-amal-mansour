@@ -8,10 +8,8 @@ const desc = ["terrible", "bad", "normal", "good", "wonderful"]
 
 const RatingMovie = ({ filterRating, movieRating, rating, setRating }) => {
 
-
-
     const handleChange = value => { setRating(value) };
-
+    
     return (
 
         < span className="RateContainer">
