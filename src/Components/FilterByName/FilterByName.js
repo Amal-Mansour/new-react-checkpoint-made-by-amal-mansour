@@ -11,7 +11,6 @@ const FilterByName = ({ search, setSearch }) => {
                 <Input.Search size="large"
                     placeholder="Enter movie name..."
                     className="inputsearch"
-                    enterButton
                     onChange={e => setSearch(e.target.value)}
                     value={search}
                 />

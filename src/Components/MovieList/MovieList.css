@@ -6,7 +6,7 @@
 }
 
 .movieList {
-  margin-top: 100px !important;
+  margin-top: 150px !important;
   margin-left: 100px !important;
   background-color: #bcbcee1a;
    width: 1300px;
@@ -17,7 +17,7 @@
 .moviebtn {
   width: 23rem;
   height: 37rem;
-  background-color: #000033 !important;
+  background-color:#922B21!important;
   margin-top: 60px;
   display: flex;
   flex-direction: column;
